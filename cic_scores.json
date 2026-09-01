@@ -1,0 +1,825 @@
+{
+  "session_id": "2026-09-01-cic-poc-loc",
+  "timestamp": "2026-09-01T13:40:00-04:00",
+  "class": "Clock-Incommensurability Class (CIC)",
+  "prior_classes_subtracted": {
+    "undersampling": "2026-08-03",
+    "dark_biosphere": "2026-05-14",
+    "deep_biosphere_as_space_prior": "2026-08-14",
+    "TAC": "2026-08-28",
+    "NCR": "2026-08-30",
+    "IM_split": "2026-08-30"
+  },
+  "retain_do_not_reclaim": [
+    "hadal_microbiome",
+    "hubble_tension",
+    "magnetoreceptor",
+    "nodule_dark_oxygen",
+    "omnitrophota"
+  ],
+  "items": [
+    {
+      "id": "aerobe_before_photosynthesis",
+      "realm": "earth",
+      "title": "Named sequence reversed: some aerobes exist in genomes BEFORE photosynthesis",
+      "process_years": 3500000000.0,
+      "observe_years": 20.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": true,
+      "loss_outruns_catalog": false,
+      "prior_classes": [],
+      "retain": false,
+      "spokenness": 25.0,
+      "source": "Murali et al., Science, DOI 10.1126/science.adp1853 (cited in New Yorker 13 Aug 2026). Named public story is photosynthesis \u2192 O2 \u2192 aerobes (GOE ~2.4 Gya). Genomic clock disagrees for some lineages. Candidate energy: radiolytic O2 (Ruff), itself unproved as the ancestral source.",
+      "status": "structural_synthesis",
+      "notes": "This is CIC's cousin: two clocks (textbook sequence vs genomic sequence) disagree. Do not load-bear on Sweetman nodules. Load-bear only on the genomic result. The ancestral energy source is unproved.",
+      "confidence": 0.7,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 8.243038048686294,
+      "cic_raw": 95.0,
+      "poc": 22.0,
+      "loc": 0.0,
+      "prior_penalty": 0.0,
+      "spoken_penalty": 0.0875,
+      "remaining": 73.68,
+      "adversarial_flags": []
+    },
+    {
+      "id": "lrd_black_hole_star_phase",
+      "realm": "space",
+      "title": "Little red dots named as a class; Aug 2026 evidence they are a transient PHASE (black-hole-star / hidden host)",
+      "process_years": 300000000.0,
+      "observe_years": 4.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": true,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "NCR"
+      ],
+      "retain": false,
+      "spokenness": 40.0,
+      "source": "Naidu et al. MIT 12 Aug 2026 (MoM-BH*-1 'black hole star'); ScienceDaily/NASA 17 Aug 2026 (LRDs may not be a separate population); Wikipedia LRD, 300+ observed as of 2025; MIT Physics @MIT_Physics 1 Sep 2026",
+      "status": "unproved_claim",
+      "notes": "Observation of LRDs is confirmed. That they ARE a new class of object is unproved. That they are a growth PHASE of SMBH assembly (black hole star) is an interpretation dated 12 Aug 2026. Population snapshots cannot watch one object evolve. Distinct from NCR (which asked whether the named cause closes the mass crisis) and from TAC (no missing converter).",
+      "confidence": 0.72,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 7.8750612633917,
+      "cic_raw": 95.0,
+      "poc": 22.0,
+      "loc": 0.0,
+      "prior_penalty": 0.28,
+      "spoken_penalty": 0.13999999999999999,
+      "remaining": 50.59,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:NCR",
+        "UNPROVED_DO_NOT_ASSERT",
+        "POC_NEAR_NCR_CHECK_DISTINCT"
+      ]
+    },
+    {
+      "id": "cryptic_species_morph_clock",
+      "realm": "animals",
+      "title": "Each morphological insect species conceals ~3.1 cryptic species",
+      "process_years": 250.0,
+      "observe_years": 15.0,
+      "snapshot_not_series": false,
+      "phase_named_as_class": true,
+      "loss_outruns_catalog": true,
+      "prior_classes": [],
+      "retain": false,
+      "spokenness": 15.0,
+      "source": "Lehmitz et al. 2025 citing cryptic-species factor 3.1. Morphological 'species' is a freeze-frame of a genetic complex.",
+      "status": "documented_gap",
+      "notes": "POC: Linnaean species-as-class collapses a genetic process. Complements insect LOC.",
+      "confidence": 0.75,
+      "catalog_years_to_finish": 450.0,
+      "loss_horizon_years": 100.0,
+      "cadence_log": 1.2218487496163564,
+      "cic_raw": 58.42598031501935,
+      "poc": 22.0,
+      "loc": 25.22570011020275,
+      "prior_penalty": 0.0,
+      "spoken_penalty": 0.0525,
+      "remaining": 48.44,
+      "adversarial_flags": []
+    },
+    {
+      "id": "insect_dark_taxa_loc",
+      "realm": "animals",
+      "title": "Insect dark taxa: ~80% unnamed; description clock ~450 yr; unnamed species are more extinction-prone",
+      "process_years": 450.0,
+      "observe_years": 1.0,
+      "snapshot_not_series": false,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": true,
+      "prior_classes": [],
+      "retain": false,
+      "spokenness": 20.0,
+      "source": "Lehmitz et al. npj Biodivers. 2025 (s44185-025-00108-3): 5.5 million insects, ~1 million named, >80% undescribed, ~10,000 insects described/year, ~450 years; 20 families = 50% of flying insect richness (dark taxa). Stork/Griffith 26 Aug 2024: undescribed insects smaller, rarer, more extinction-prone. Li et al. 2025 PMC12680044: >400 years to describe a small fraction at current rates. Vox 2 Sep 2025: dark taxa as animal-kingdom 'dark matter'.",
+      "status": "documented_gap",
+      "notes": "Flagship LOC. Not in TAC or NCR as a primary claim. The dark majority of animals is not waiting in a drawer. It is smaller, rarer, and going extinct unnamed. Distinct from undersampling (we DO sample meadows; we do not name what we sample on a clock that matches loss).",
+      "confidence": 0.86,
+      "catalog_years_to_finish": 450.0,
+      "loss_horizon_years": 100.0,
+      "cadence_log": 2.6532125137753435,
+      "cic_raw": 49.546814819810066,
+      "poc": 0.0,
+      "loc": 25.22570011020275,
+      "prior_penalty": 0.0,
+      "spoken_penalty": 0.06999999999999999,
+      "remaining": 42.85,
+      "adversarial_flags": []
+    },
+    {
+      "id": "dark_genome_two_clocks",
+      "realm": "humans",
+      "title": "Dark genome: biochemical-assay clock vs evolutionary-selection clock disagree on 'function'",
+      "process_years": 300000.0,
+      "observe_years": 15.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": true,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "NCR"
+      ],
+      "retain": false,
+      "spokenness": 45.0,
+      "source": "~98% non-coding. IISc Connect Apr 2026 (Graur: ENCODE 80% 'functional' would imply ~70% invulnerable to mutation \u2014 mutational clock contradicts assay clock). Prabakaran 2025 'dark proteins'. Function of most of the genome still unsettled.",
+      "status": "documented_gap",
+      "notes": "NCR listed 'dark genome function residual' (the name moved junk \u2192 dark \u2192 regulatory; ledger did not close). CIC remainder is specifically TWO-CLOCK disagreement about what 'function' means. Partial overlap; penalized.",
+      "confidence": 0.77,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 4.301029995663981,
+      "cic_raw": 79.4261082935865,
+      "poc": 22.0,
+      "loc": 0.0,
+      "prior_penalty": 0.28,
+      "spoken_penalty": 0.1575,
+      "remaining": 42.64,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:NCR",
+        "POC_NEAR_NCR_CHECK_DISTINCT"
+      ]
+    },
+    {
+      "id": "soil_prokaryote_function",
+      "realm": "land",
+      "title": "Functions of most soil-relevant prokaryotic species remain unknown",
+      "process_years": 10.0,
+      "observe_years": 0.2,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": true,
+      "prior_classes": [
+        "undersampling"
+      ],
+      "retain": false,
+      "spokenness": 20.0,
+      "source": "Lehmitz et al. 2025: functions of most soil-relevant prokaryotic species unknown; barrier to linking biodiversity and ecosystem services. Cultivation <1% of microorganisms (Alanzi 2025 JMB); 87\u201399% uncultured across habitats (preprints 2025, 1,046 studies).",
+      "status": "documented_gap",
+      "notes": "Land's CIC: we stand on it, we name it known, the functional catalog is a snapshot of an uncultured majority. Distinct from Omnitrophota (one phylum, TAC).",
+      "confidence": 0.73,
+      "catalog_years_to_finish": 200.0,
+      "loss_horizon_years": 50.0,
+      "cadence_log": 1.6989700043360187,
+      "cic_raw": 58.390371637037205,
+      "poc": 0.0,
+      "loc": 24.8164799306237,
+      "prior_penalty": 0.28,
+      "spoken_penalty": 0.06999999999999999,
+      "remaining": 33.82,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:undersampling"
+      ]
+    },
+    {
+      "id": "inner_core_state_as_class",
+      "realm": "earth",
+      "title": "Inner core named 'solid'; 2025 evidence it is transforming",
+      "process_years": 100000000.0,
+      "observe_years": 60.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": true,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "NCR",
+        "undersampling"
+      ],
+      "retain": false,
+      "spokenness": 40.0,
+      "source": "USC 10 Feb 2025 (NCR archive); Kola Superdeep 12.3 km vs 6371 km radius (~0.19%).",
+      "status": "documented_gap",
+      "notes": "POC example (solid-as-class) but already NCR. Downranked.",
+      "confidence": 0.68,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 6.221848749616356,
+      "cic_raw": 95.0,
+      "poc": 22.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.13999999999999999,
+      "remaining": 30.2,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:NCR,undersampling",
+        "POC_NEAR_NCR_CHECK_DISTINCT"
+      ]
+    },
+    {
+      "id": "kola_contact_fraction",
+      "realm": "earth",
+      "title": "Direct sample 0.19% of the way to the core",
+      "process_years": 4500000000.0,
+      "observe_years": 50.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "undersampling",
+        "NCR"
+      ],
+      "retain": false,
+      "spokenness": 50.0,
+      "source": "Kola Superdeep ~12.3 km. Earth's radius 6371 km.",
+      "status": "known_fact",
+      "notes": "This is spatial undersampling, already claimed 2026-08-03 and ranked in NCR. Included as a negative control so the engine can show it is NOT remaining CIC novelty.",
+      "confidence": 0.95,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 7.954242509439325,
+      "cic_raw": 73.0,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.175,
+      "remaining": 25.84,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:undersampling,NCR"
+      ]
+    },
+    {
+      "id": "crustal_radiolytic_oxygen",
+      "realm": "earth",
+      "title": "Crustal dark oxygen in 1.2-Gyr brine (Moab Khotsong) \u2014 observed; biology vs radiolysis unproved",
+      "process_years": 1200000000.0,
+      "observe_years": 3.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "TAC",
+        "dark_biosphere"
+      ],
+      "retain": false,
+      "spokenness": 30.0,
+      "source": "New Yorker, James Dinneen, 13 Aug 2026 (Ruff; 0.09 \u00b5mol/L O2; NASA OxyMoRon funding 2025). Mechanism split unproved.",
+      "status": "documented_gap",
+      "notes": "TAC already owns the missing converter (biology vs radioactivity). CIC remainder: we sample a 1.2 Gyr isolated brine in a 3-year grant. Partial overlap, penalized.",
+      "confidence": 0.74,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 8.602059991327963,
+      "cic_raw": 73.0,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.105,
+      "remaining": 25.01,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:TAC,dark_biosphere"
+      ]
+    },
+    {
+      "id": "deep_seafloor_unseen",
+      "realm": "ocean",
+      "title": "Deep seafloor visually observed: <0.001%",
+      "process_years": 10000.0,
+      "observe_years": 50.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "undersampling"
+      ],
+      "retain": false,
+      "spokenness": 55.0,
+      "source": "NOAA citing Science Advances 10.1126/sciadv.adp8602. Deep ocean >90% of ocean volume.",
+      "status": "known_fact",
+      "notes": "Undersampling. The CIC remainder is only that a visual pass is also a snapshot of a changing benthos \u2014 weak, downranked.",
+      "confidence": 0.9,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 2.3010299956639813,
+      "cic_raw": 39.092774960253166,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.28,
+      "spoken_penalty": 0.1925,
+      "remaining": 21.59,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:undersampling"
+      ]
+    },
+    {
+      "id": "deep_biosphere_generation_clock",
+      "realm": "earth",
+      "title": "Deep-biosphere cells: generation times of tens to thousands of years; expeditions sample days",
+      "process_years": 1000.0,
+      "observe_years": 0.02,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "dark_biosphere",
+        "deep_biosphere_as_space_prior"
+      ],
+      "retain": false,
+      "spokenness": 35.0,
+      "source": "J\u00f8rgensen & D'Hondt 2011 PMC3215010 (doubling as long as several thousand years); J\u00f8rgensen 2016 (mean generation tens to thousands of years); Wikipedia Deep biosphere (turnover hundreds of thousands of years; cells live thousands of years before dividing). Biomass ~15% of Earth total (Bar-On 2018).",
+      "status": "documented_gap",
+      "notes": "Dark Biosphere Hypothesis claimed the EXISTENCE and networked architecture of subsurface life. This item is the CLOCK: a 3-year programme is one frame of a millennial film. Distinct structure.",
+      "confidence": 0.8,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 4.698970004336019,
+      "cic_raw": 61.073891706413505,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.12249999999999998,
+      "remaining": 21.22,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:dark_biosphere,deep_biosphere_as_space_prior"
+      ]
+    },
+    {
+      "id": "geomagnetic_reversal_unwatched",
+      "realm": "earth",
+      "title": "Geomagnetic reversal: process kyr-scale; never watched; simulations decades from realistic",
+      "process_years": 5000.0,
+      "observe_years": 50.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "NCR"
+      ],
+      "retain": false,
+      "spokenness": 55.0,
+      "source": "Roger Fu, Harvard Gazette, 7 Apr 2026 (NCR archive). Last reversal ~780 kyr ago.",
+      "status": "documented_gap",
+      "notes": "NCR already ranked this highest remaining (53.22) as initiation-maintenance. CIC overlap is real. Heavy prior penalty applied. Kept only as a negative control.",
+      "confidence": 0.7,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 2.0,
+      "cic_raw": 36.33333333333333,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.28,
+      "spoken_penalty": 0.1925,
+      "remaining": 17.96,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:NCR"
+      ]
+    },
+    {
+      "id": "microbial_uncultured_fraction",
+      "realm": "land",
+      "title": "87\u201399% of microbial diversity remains uncultured across habitats",
+      "process_years": 100.0,
+      "observe_years": 0.1,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "undersampling",
+        "TAC"
+      ],
+      "retain": false,
+      "spokenness": 40.0,
+      "source": "Statistical analysis of 1,046 studies / eight habitats, preprint 3 Jul 2025: 87\u201399% uncultured. Lloyd et al. 2018 ~80% uncultured taxa; Nayfach 2021 85% of phylogenetic diversity uncultured.",
+      "status": "known_fact",
+      "notes": "Known fact used as a clock-context number, not a new class. Partial TAC overlap (no lab converter).",
+      "confidence": 0.82,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 3.0,
+      "cic_raw": 45.5,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.13999999999999999,
+      "remaining": 15.67,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:undersampling,TAC"
+      ]
+    },
+    {
+      "id": "seafloor_mapping_residual",
+      "realm": "ocean",
+      "title": "Global seafloor mapped to modern standards: 28.7% (Apr 2026)",
+      "process_years": 10000.0,
+      "observe_years": 20.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "undersampling",
+        "NCR"
+      ],
+      "retain": false,
+      "spokenness": 60.0,
+      "source": "NOAA Ocean Exploration fact, last updated 20 Apr 2026, citing Seabed 2030.",
+      "status": "known_fact",
+      "notes": "Spatial undersampling. Updated number, not a new class. Negative control.",
+      "confidence": 0.93,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 2.6989700043360187,
+      "cic_raw": 42.74055837308018,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.21,
+      "remaining": 14.34,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:undersampling,NCR"
+      ]
+    },
+    {
+      "id": "hadal_microbiome",
+      "realm": "ocean",
+      "title": "Hadal microbiome: 7,564 species, ~90% new",
+      "process_years": 1000000.0,
+      "observe_years": 5.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": true,
+      "prior_classes": [
+        "undersampling",
+        "TAC"
+      ],
+      "retain": true,
+      "spokenness": 40.0,
+      "source": "Xiao et al., Cell 2025 (NCR/TAC retain).",
+      "status": "documented_gap",
+      "notes": "RETAIN. Not reclaimed.",
+      "confidence": 0.78,
+      "catalog_years_to_finish": 200.0,
+      "loss_horizon_years": 80.0,
+      "cadence_log": 5.301029995663981,
+      "cic_raw": 89.77629502962947,
+      "poc": 0.0,
+      "loc": 23.1835200693763,
+      "prior_penalty": 0.85,
+      "spoken_penalty": 0.13999999999999999,
+      "remaining": 10.31,
+      "adversarial_flags": [
+        "RETAIN_DO_NOT_LOAD_BEAR",
+        "PRIOR_OVERLAP:undersampling,TAC"
+      ]
+    },
+    {
+      "id": "nodule_dark_oxygen",
+      "realm": "ocean",
+      "title": "Nodule 'dark oxygen' (Sweetman 2024) \u2014 contested, editor's note",
+      "process_years": 1000000.0,
+      "observe_years": 2.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": true,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "TAC",
+        "NCR",
+        "dark_biosphere"
+      ],
+      "retain": true,
+      "spokenness": 80.0,
+      "source": "Sweetman et al. Nature Geoscience 17, 737\u2013744 (2024); Nature Geoscience Editor's Note 8 Apr 2026; Downes et al. Frontiers in Marine Science 2025 10.3389/fmars.2025.1721853; Live Science 19 Mar 2026 (thermodynamics critique); DORI landers 2026 pending.",
+      "status": "unproved_claim",
+      "notes": "RETAIN. Do not load-bear. Homonym collapse still active. Stronger quieter phenomenon is crustal O2 (Ruff), itself mechanistically unproved.",
+      "confidence": 0.4,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 5.698970004336019,
+      "cic_raw": 92.24055837308018,
+      "poc": 22.0,
+      "loc": 0.0,
+      "prior_penalty": 0.85,
+      "spoken_penalty": 0.27999999999999997,
+      "remaining": 6.97,
+      "adversarial_flags": [
+        "LOW_CONFIDENCE_NUMBERS",
+        "RETAIN_DO_NOT_LOAD_BEAR",
+        "PRIOR_OVERLAP:TAC,NCR,dark_biosphere",
+        "UNPROVED_DO_NOT_ASSERT",
+        "POC_NEAR_NCR_CHECK_DISTINCT"
+      ]
+    },
+    {
+      "id": "hubble_tension",
+      "realm": "space",
+      "title": "Hubble tension: local H0 ~73 vs Planck ~67.4",
+      "process_years": 13800000000.0,
+      "observe_years": 30.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "TAC",
+        "NCR"
+      ],
+      "retain": true,
+      "spokenness": 95.0,
+      "source": "JWST confirms local ~73 vs CMB ~67\u201368; Keck 5 Dec 2025 independent time-delay; H0DN / Riess SH0ES. Wikipedia Hubble's law (early vs late >5\u03c3).",
+      "status": "documented_gap",
+      "notes": "RETAIN. Spoken. Already TAC item 10 and NCR retain. Not reclaimed.",
+      "confidence": 0.88,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 8.662757831681574,
+      "cic_raw": 73.0,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.85,
+      "spoken_penalty": 0.33249999999999996,
+      "remaining": 6.87,
+      "adversarial_flags": [
+        "RETAIN_DO_NOT_LOAD_BEAR",
+        "PRIOR_OVERLAP:TAC,NCR"
+      ]
+    },
+    {
+      "id": "omnitrophota",
+      "realm": "land",
+      "title": "Omnitrophota: globally common, almost uncultured (lab clock \u2260 environmental clock)",
+      "process_years": 100.0,
+      "observe_years": 30.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "TAC"
+      ],
+      "retain": true,
+      "spokenness": 25.0,
+      "source": "DRI / Nature Microbiology Omnitrophota (inferred from env. DNA ~30 years; still uncultured). TAC item 1.",
+      "status": "documented_gap",
+      "notes": "RETAIN. TAC owns missing lab transducer. CIC remainder (lab cadence \u2260 environmental cadence) is real but secondary.",
+      "confidence": 0.78,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 0.5228787452803376,
+      "cic_raw": 22.793055165069763,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.73,
+      "spoken_penalty": 0.0875,
+      "remaining": 5.0,
+      "adversarial_flags": [
+        "RETAIN_DO_NOT_LOAD_BEAR",
+        "PRIOR_OVERLAP:TAC",
+        "WEAK_CADENCE_MISMATCH"
+      ]
+    },
+    {
+      "id": "consciousness_discriminator",
+      "realm": "humans",
+      "title": "No discriminator for machine (or animal) consciousness",
+      "process_years": 1.0,
+      "observe_years": 30.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "TAC",
+        "NCR"
+      ],
+      "retain": false,
+      "spokenness": 98.0,
+      "source": "Thomas Fel, Harvard Gazette 7 Apr 2026 (NCR). Hard problem is the most spoken unproved thing.",
+      "status": "documented_gap",
+      "notes": "Spoken. Last on an unspoken list. Not CIC.",
+      "confidence": 0.6,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": -1.4771212547196626,
+      "cic_raw": 18.0,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.34299999999999997,
+      "remaining": 4.16,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:TAC,NCR",
+        "WEAK_CADENCE_MISMATCH",
+        "OBSERVE_NOT_SHORTER_THAN_PROCESS"
+      ]
+    },
+    {
+      "id": "magnetoreceptor",
+      "realm": "animals",
+      "title": "Magnetoreceptor cell unlocated after ~60 years",
+      "process_years": 60.0,
+      "observe_years": 60.0,
+      "snapshot_not_series": true,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "TAC",
+        "NCR"
+      ],
+      "retain": true,
+      "spokenness": 50.0,
+      "source": "Hore 2026; Nordmann et al. J. Exp. Biol. 10 Apr 2025 (ruling-hypothesis trap). TAC item 2.",
+      "status": "documented_gap",
+      "notes": "RETAIN. TAC owns this (missing converter). CIC does not apply cleanly: observe_years \u2248 process_years of the research programme.",
+      "confidence": 0.8,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": 0.0,
+      "cic_raw": 18.0,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.85,
+      "spoken_penalty": 0.175,
+      "remaining": 2.0,
+      "adversarial_flags": [
+        "RETAIN_DO_NOT_LOAD_BEAR",
+        "PRIOR_OVERLAP:TAC,NCR",
+        "WEAK_CADENCE_MISMATCH",
+        "OBSERVE_NOT_SHORTER_THAN_PROCESS"
+      ]
+    },
+    {
+      "id": "anesthesia_maintenance",
+      "realm": "humans",
+      "title": "Anesthesia: initiation known, maintenance unagreed after ~180 years",
+      "process_years": 0.00045662100456621003,
+      "observe_years": 180.0,
+      "snapshot_not_series": false,
+      "phase_named_as_class": false,
+      "loss_outruns_catalog": false,
+      "prior_classes": [
+        "NCR",
+        "IM_split"
+      ],
+      "retain": false,
+      "spokenness": 40.0,
+      "source": "The Conversation 16 May 2024 (NCR archive). Canonical IM-split.",
+      "status": "documented_gap",
+      "notes": "Negative control: observe_years >> process_years, so CIC cadence is inverted. This is NCR/IM, not CIC.",
+      "confidence": 0.85,
+      "catalog_years_to_finish": null,
+      "loss_horizon_years": null,
+      "cadence_log": -5.595716619943424,
+      "cic_raw": 0.0,
+      "poc": 0.0,
+      "loc": 0.0,
+      "prior_penalty": 0.56,
+      "spoken_penalty": 0.13999999999999999,
+      "remaining": 0.0,
+      "adversarial_flags": [
+        "PRIOR_OVERLAP:NCR,IM_split",
+        "WEAK_CADENCE_MISMATCH",
+        "OBSERVE_NOT_SHORTER_THAN_PROCESS"
+      ]
+    }
+  ],
+  "guard": {
+    "session_id": "2026-09-01-cic-poc-loc",
+    "timestamp": "2026-09-01T13:40:00-04:00",
+    "n_items": 21,
+    "n_allowed": 9,
+    "n_rejected": 7,
+    "primary_id": "aerobe_before_photosynthesis",
+    "primary_title": "Named sequence reversed: some aerobes exist in genomes BEFORE photosynthesis",
+    "primary_remaining": 73.68,
+    "allowed_ids": [
+      "aerobe_before_photosynthesis",
+      "lrd_black_hole_star_phase",
+      "cryptic_species_morph_clock",
+      "insect_dark_taxa_loc",
+      "dark_genome_two_clocks",
+      "soil_prokaryote_function",
+      "inner_core_state_as_class",
+      "deep_seafloor_unseen",
+      "geomagnetic_reversal_unwatched"
+    ],
+    "rejected": [
+      {
+        "id": "kola_contact_fraction",
+        "remaining": 25.84,
+        "reasons": [
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      },
+      {
+        "id": "crustal_radiolytic_oxygen",
+        "remaining": 25.01,
+        "reasons": [
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      },
+      {
+        "id": "deep_biosphere_generation_clock",
+        "remaining": 21.22,
+        "reasons": [
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      },
+      {
+        "id": "microbial_uncultured_fraction",
+        "remaining": 15.67,
+        "reasons": [
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      },
+      {
+        "id": "seafloor_mapping_residual",
+        "remaining": 14.34,
+        "reasons": [
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      },
+      {
+        "id": "consciousness_discriminator",
+        "remaining": 4.16,
+        "reasons": [
+          "remaining surface too small (4.16)",
+          "not CIC: observation window is not shorter than process",
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      },
+      {
+        "id": "anesthesia_maintenance",
+        "remaining": 0.0,
+        "reasons": [
+          "remaining surface too small (0.0)",
+          "not CIC: observation window is not shorter than process",
+          "prior-class overlap dominates; no POC/LOC remainder"
+        ]
+      }
+    ],
+    "discriminators": [
+      {
+        "id": "aerobe_before_photosynthesis",
+        "realm": "earth",
+        "cic_test": "Obtain a time-series of the SAME object/process at intervals shorter than \u03c4_p (3.5e+09 yr). If the named class dissolves into a phase, CIC/POC is confirmed.",
+        "tac_test": "Physically remove or locate the hypothesized converter. If the effect survives removal, TAC applies, not CIC.",
+        "ncr_test": "Add more of the named cause. If the residual closes, NCR is wrong for this case. If the named cause is removed and the phenomenon continues, the named cause was never the ledger.",
+        "undersampling_test": "Increase spatial coverage at the same cadence. If the gap closes without a longer time-series, this was undersampling, not CIC."
+      },
+      {
+        "id": "lrd_black_hole_star_phase",
+        "realm": "space",
+        "cic_test": "Obtain a time-series of the SAME object/process at intervals shorter than \u03c4_p (3e+08 yr). If the named class dissolves into a phase, CIC/POC is confirmed.",
+        "tac_test": "Physically remove or locate the hypothesized converter. If the effect survives removal, TAC applies, not CIC.",
+        "ncr_test": "Add more of the named cause. If the residual closes, NCR is wrong for this case. If the named cause is removed and the phenomenon continues, the named cause was never the ledger.",
+        "undersampling_test": "Increase spatial coverage at the same cadence. If the gap closes without a longer time-series, this was undersampling, not CIC."
+      },
+      {
+        "id": "cryptic_species_morph_clock",
+        "realm": "animals",
+        "cic_test": "Obtain a time-series of the SAME object/process at intervals shorter than \u03c4_p (250 yr). If the named class dissolves into a phase, CIC/POC is confirmed.",
+        "tac_test": "Physically remove or locate the hypothesized converter. If the effect survives removal, TAC applies, not CIC.",
+        "ncr_test": "Add more of the named cause. If the residual closes, NCR is wrong for this case. If the named cause is removed and the phenomenon continues, the named cause was never the ledger.",
+        "undersampling_test": "Increase spatial coverage at the same cadence. If the gap closes without a longer time-series, this was undersampling, not CIC."
+      },
+      {
+        "id": "insect_dark_taxa_loc",
+        "realm": "animals",
+        "cic_test": "Obtain a time-series of the SAME object/process at intervals shorter than \u03c4_p (450 yr). If the named class dissolves into a phase, CIC/POC is confirmed.",
+        "tac_test": "Physically remove or locate the hypothesized converter. If the effect survives removal, TAC applies, not CIC.",
+        "ncr_test": "Add more of the named cause. If the residual closes, NCR is wrong for this case. If the named cause is removed and the phenomenon continues, the named cause was never the ledger.",
+        "undersampling_test": "Increase spatial coverage at the same cadence. If the gap closes without a longer time-series, this was undersampling, not CIC."
+      },
+      {
+        "id": "dark_genome_two_clocks",
+        "realm": "humans",
+        "cic_test": "Obtain a time-series of the SAME object/process at intervals shorter than \u03c4_p (300000 yr). If the named class dissolves into a phase, CIC/POC is confirmed.",
+        "tac_test": "Physically remove or locate the hypothesized converter. If the effect survives removal, TAC applies, not CIC.",
+        "ncr_test": "Add more of the named cause. If the residual closes, NCR is wrong for this case. If the named cause is removed and the phenomenon continues, the named cause was never the ledger.",
+        "undersampling_test": "Increase spatial coverage at the same cadence. If the gap closes without a longer time-series, this was undersampling, not CIC."
+      }
+    ],
+    "class_name": "Clock-Incommensurability Class (CIC)",
+    "operators": [
+      "cadence_mismatch",
+      "phase_object_collapse",
+      "loss_outruns_catalog"
+    ],
+    "not_claimed": [
+      "Not a new physical mechanism.",
+      "Not a proof that little red dots are black hole stars.",
+      "Not a proof that Sweetman nodule oxygen is real or fake.",
+      "Not a proof that radiolytic O2 is the ancestral aerobic energy source.",
+      "Not patent-ready, not peer-reviewed, not a discovery of nature.",
+      "Scores are a classification heuristic over sourced gaps."
+    ]
+  }
+}

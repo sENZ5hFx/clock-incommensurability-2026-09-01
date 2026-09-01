@@ -1,0 +1,69 @@
+{
+  "session_id": "2026-09-01-cic-poc-loc",
+  "timestamp": "2026-09-01T13:40:00-04:00",
+  "primary_insight": "Clock-Incommensurability Class: across realms the remaining unknown after subtracting undersampling, TAC, and NCR is that observation cadence cannot resolve process cadence, so named classes are freeze-frames. Highest remaining allowed surface: aerobe_before_photosynthesis (73.68).",
+  "top_allowed": [
+    {
+      "id": "aerobe_before_photosynthesis",
+      "realm": "earth",
+      "remaining": 73.68,
+      "title": "Named sequence reversed: some aerobes exist in genomes BEFORE photosynthesis",
+      "source": "Murali et al., Science, DOI 10.1126/science.adp1853 (cited in New Yorker 13 Aug 2026). Named public story is photosynthesis \u2192 O2 \u2192 aerobes (GOE ~2.4 Gya). Genomic clock disagrees for some lineages. Candidate energy: radiolytic O2 (Ruff), itself unproved as the ancestral source.",
+      "status": "structural_synthesis"
+    },
+    {
+      "id": "lrd_black_hole_star_phase",
+      "realm": "space",
+      "remaining": 50.59,
+      "title": "Little red dots named as a class; Aug 2026 evidence they are a transient PHASE (black-hole-star / hidden host)",
+      "source": "Naidu et al. MIT 12 Aug 2026 (MoM-BH*-1 'black hole star'); ScienceDaily/NASA 17 Aug 2026 (LRDs may not be a separate population); Wikipedia LRD, 300+ observed as of 2025; MIT Physics @MIT_Physics 1 Sep 2026",
+      "status": "unproved_claim"
+    },
+    {
+      "id": "cryptic_species_morph_clock",
+      "realm": "animals",
+      "remaining": 48.44,
+      "title": "Each morphological insect species conceals ~3.1 cryptic species",
+      "source": "Lehmitz et al. 2025 citing cryptic-species factor 3.1. Morphological 'species' is a freeze-frame of a genetic complex.",
+      "status": "documented_gap"
+    },
+    {
+      "id": "insect_dark_taxa_loc",
+      "realm": "animals",
+      "remaining": 42.85,
+      "title": "Insect dark taxa: ~80% unnamed; description clock ~450 yr; unnamed species are more extinction-prone",
+      "source": "Lehmitz et al. npj Biodivers. 2025 (s44185-025-00108-3): 5.5 million insects, ~1 million named, >80% undescribed, ~10,000 insects described/year, ~450 years; 20 families = 50% of flying insect richness (dark taxa). Stork/Griffith 26 Aug 2024: undescribed insects smaller, rarer, more extinction-prone. Li et al. 2025 PMC12680044: >400 years to describe a small fraction at current rates. Vox 2 Sep 2025: dark taxa as animal-kingdom 'dark matter'.",
+      "status": "documented_gap"
+    },
+    {
+      "id": "dark_genome_two_clocks",
+      "realm": "humans",
+      "remaining": 42.64,
+      "title": "Dark genome: biochemical-assay clock vs evolutionary-selection clock disagree on 'function'",
+      "source": "~98% non-coding. IISc Connect Apr 2026 (Graur: ENCODE 80% 'functional' would imply ~70% invulnerable to mutation \u2014 mutational clock contradicts assay clock). Prabakaran 2025 'dark proteins'. Function of most of the genome still unsettled.",
+      "status": "documented_gap"
+    },
+    {
+      "id": "soil_prokaryote_function",
+      "realm": "land",
+      "remaining": 33.82,
+      "title": "Functions of most soil-relevant prokaryotic species remain unknown",
+      "source": "Lehmitz et al. 2025: functions of most soil-relevant prokaryotic species unknown; barrier to linking biodiversity and ecosystem services. Cultivation <1% of microorganisms (Alanzi 2025 JMB); 87\u201399% uncultured across habitats (preprints 2025, 1,046 studies).",
+      "status": "documented_gap"
+    },
+    {
+      "id": "inner_core_state_as_class",
+      "realm": "earth",
+      "remaining": 30.2,
+      "title": "Inner core named 'solid'; 2025 evidence it is transforming",
+      "source": "USC 10 Feb 2025 (NCR archive); Kola Superdeep 12.3 km vs 6371 km radius (~0.19%).",
+      "status": "documented_gap"
+    }
+  ],
+  "paths": {
+    "json": "/workspace/artifacts/cic_scores.json",
+    "csv": "/workspace/artifacts/cic_scores.csv",
+    "ranking_png": "/workspace/artifacts/cic_ranking.png",
+    "clock_png": "/workspace/artifacts/cic_clock_plane.png"
+  }
+}
